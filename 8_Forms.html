@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formlar</title>
+</head>
+
+<body>
+
+    <form>
+        <!-- <input> etiketi veri giriş alanı olarak kullanılır-->
+        <p>
+            Ad : <input type="text" name="ad">
+        </p>
+
+        <p>
+            Soyad : <input type="text" name="soyad">
+        </p>
+
+        <p>
+            Eposta : <input type="email" name="email">
+        </p>
+
+        <p>
+            Parola : <input type="password" name="password">
+        </p>
+
+        <p> <!-- checkbox kullanımı-->
+            Parolayı hatırla <input type="checkbox" name="parolahatirla"> 
+        </p>
+
+        <!-- Cinsiyet belirlerken radio buton kullanılır-->
+        <!-- Her iki kısmın beraber seçilmesini önlemek için name kısmını yazıyoruz ki bilgiler
+            server a yüklenirken buradaki isim ile yüklenecek-->
+        <p>
+            Cinsiyetiniz : <br>
+            Erkek <input type="radio" name="Cinsiyet">
+            Kadın <input type="radio" name="Cinsiyet">
+        </p>
+
+        <!-- Birden fazla checkbox kullanabiliriz-->
+        <p>
+            Hobileriniz : <br>
+            Kitap okumak <input type="checkbox" name="hobi">
+            Film izlemek <input type="checkbox" name="hobi">
+            Bisiklet sürmek <input type="checkbox" name="hobi">
+        </p>
+
+        <!-- select etiketi ile doğduğu şehri isteyebiliriz-->
+        <p>
+            Doğum Yeriniz:
+            <select name="dogumyeri">
+                <option>Eskişehir</option>
+                <option>Gaziantep</option>
+                <option>İstanbul</option>
+            </select>
+        </p>
+
+        <!-- Eğer seçimde birden fazla yerin seçilmesini istiyorsak select yanına multiple yazarız-->
+        <p>
+            Doğum Yeriniz:
+            <select multiple name="dogumyeri">
+                <option>Eskişehir</option>
+                <option>Gaziantep</option>
+                <option>İstanbul</option>
+            </select>
+        </p>
+        
+
+    </form>
+
+</body>
+
+</html>

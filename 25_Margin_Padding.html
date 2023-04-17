@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin ve Padding</title>
+
+    <style>
+        body {
+            margin: 10px;
+        }
+
+        .kututop {
+            width: 150px;
+            height: 120px;
+            margin: 3px;
+        }
+
+        .kutuleft {
+            width: 200px;
+            height: 100px;
+        }
+
+
+        #kutu1 {
+            background: lightblue;
+            float: left;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #kutu2 {
+            background: lightcoral;
+            float: left;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #kutu3 {
+            background-color: lightgreen;
+            float: left;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #kutu4 {
+            background: lightblue;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #kutu5 {
+            background: lightcoral;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        #kutu6 {
+            background-color: lightgreen;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .menutop {
+            width: auto;
+            height: 120px;
+            border: 1px solid black;
+            overflow: auto;
+            position: sticky;
+            top: 10px;
+            left: 220px;
+            margin: 10px;
+        }
+
+        .menuleft {
+            height: 500px;
+            width: 200px;
+            border: 1px solid black;
+            overflow: auto;
+            position: sticky;
+            top: 140px;
+            left: 10px;
+            float: left;
+        }
+
+        img {
+            border: 1px solid black;
+            width: 200px;
+            height: 120px;
+            position: sticky;
+            top: 10px;
+            left: 10px;
+            float: left;
+
+        }
+
+        .content {
+            left: 220px;
+
+        }
+
+        p {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="images/manzara1.jpg" alt="">
+
+    <div class="menutop">
+
+        <div class="kututop" id="kutu1">Kutu 1</div>
+        <div class="kututop" id="kutu2">Kutu 2</div>
+        <div class="kututop" id="kutu3">Kutu 3</div>
+
+    </div>
+
+    <div class="menuleft">
+        <div class="kutuleft" id="kutu4">Kutu 4</div>
+        <div class="kutuleft" id="kutu5">Kutu 5</div>
+        <div class="kutuleft" id="kutu6">Kutu 6</div>
+    </div>
+
+    <div class="content">
+
+        <h2>Lorem5</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos neque cum, sint veniam, a perferendis
+            dolorum impedit dolor obcaecati saepe placeat reprehenderit sed deserunt eaque! Asperiores explicabo
+            inventore recusandae?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos neque cum, sint veniam, a perferendis
+            dolorum impedit dolor obcaecati saepe placeat reprehenderit sed deserunt eaque! Asperiores explicabo
+            inventore recusandae?</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eos neque cum, sint veniam, a perferendis
+            dolorum impedit dolor obcaecati saepe placeat reprehenderit sed deserunt eaque! Asperiores explicabo
+            inventore recusandae?</p>
+    </div>
+
+    <div style="height: 3000px;"></div>
+
+
+</body>
+
+</html>
